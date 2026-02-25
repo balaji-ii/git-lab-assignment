@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Project</title>
+    <style>
+        /* CSS3 for Styling */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; }
+        header { background: #2c3e50; color: #fff; padding: 2rem 0; text-align: center; }
+        nav { background: #34495e; padding: 0.5rem; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { max-width: 800px; margin: 2rem auto; padding: 0 20px; }
+        .card { border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px; background: #f9f9f9; }
+        footer { text-align: center; padding: 2rem; background: #2c3e50; color: white; margin-top: 2rem; }
+        @media (max-width: 600px) { section { margin: 1rem auto; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Simple Project</h1>
+        <p>Built with HTML5 & CSS3</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About This Project</h2>
+        <p>This project demonstrates [foundational web development](https://www.wscubetech.com) using clean code and [semantic elements](https://www.geeksforgeeks.org) like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, and <code>&lt;section&gt;</code>.</p>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="card">
+            <ul>
+                <li><strong>Responsive Design:</strong> Works on mobile, tablet, and desktop.</li>
+                <li><strong>Clean Layout:</strong> Minimalist styling for better readability.</li>
+                <li><strong>SEO Friendly:</strong> Uses proper [header hierarchy](https://www.w3schools.com).</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 Simple Web Project | <a href="mailto:hello@example.com" style="color: #3498db;">Get in Touch</a></p>
+    </footer>
+
+</body>
+</html>
